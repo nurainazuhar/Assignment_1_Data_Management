@@ -57,12 +57,18 @@ The following workflow was implemented in this project:
 <p align="center">
   <img src="cm.png" width="700">
 </p>
+- Perfect Classification: The Decision Tree confusion matrix shows zero misclassifications, correctly identifying every instance of Setosa, Versicolor, and Virginica in the test set.
+- Identified Errors: Both the Random Forest and Support Vector Machine matrices reveal a single error where one 'versicolor' instance was incorrectly predicted as 'virginica'.
+- Root Cause: As noted in the comparison table, this occurred because that specific data point fell on the "wrong side" of the decision boundary where the feature regions for those two species overlap. This demonstrates that while the models are highly robust, they encounter challenges when feature values are not perfectly distinct.
 
 ### Decision Tree Visualization
 
 <p align="center">
   <img src="dt.png" width="700">
 </p>
+
+- Decision Tree visualization provides complete transparency by allowing users can visually trace how the model reach a conclusion. For example, the tree reveals that petal width and petal length are the most discriminative features; a single split on petal width is often enough to perfectly isolate the Setosa species.
+
 
 ## Repository Structure
 
