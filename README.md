@@ -55,11 +55,42 @@ The following workflow was implemented in this project:
 
 ### Confusion Matrices
 <p align="center">
-  <img src="conf_mat.png" width="700">
+  <img src="cm.png" width="700">
 </p>
 
-## Decision Tree Visualization
+### Decision Tree Visualization
 
 <p align="center">
   <img src="dt.png" width="700">
 </p>
+
+## Repository Structure
+Assignment1-STQD6324/
+│
+├── Assignment1_STQD6324.ipynb
+├── README.md
+├── cm.png
+├── dt.png
+├── setosa.png
+├── versicolor.png
+└── virginica.png
+
+## How to Reproduce the Analysis
+Recommended Platform: Google Colab
+
+This project was developed  using Google Colab to simplify the execution of PySpark without requiring manual local Java or Spark configuration.
+
+Steps
+1. Open the notebook using the Colab link above.
+2. Ensure the runtime is connected.
+3. Run all notebook cells sequentially from top to bottom.
+
+
+### Optional Local Execution
+
+The notebook may also be executed locally using Jupyter Notebook.
+Required Dependencies
+- Python 3.x
+- Java 17
+- PySpark
+- Jupyter Notebook
