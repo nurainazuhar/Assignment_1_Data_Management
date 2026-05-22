@@ -11,7 +11,6 @@ The project demonstrates the complete machine learning workflow including:
 - Data Preprocessing: Transforming categorical labels using StringIndexer and combining features into vectors with VectorAssembler.
 - Model Training & Tuning: Systematic hyperparameter optimization using CrossValidator and ParamGridBuilder.
 - Evaluation: Comparing models using Accuracy and F1-Score to ensure performance across all classes.
-- Visualization: Visualizing classification boundaries and logic to interpret model behavior.
   
 ## Dataset
 The project uses the famous Iris dataset, which contains measurements of iris flowers from three different species:
