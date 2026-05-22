@@ -67,7 +67,7 @@ The following workflow was implemented in this project:
 ## Repository Structure
 Assignment1-STQD6324/
 │
-├── Assignment1_STQD6324.ipynb
+├── IrisClassification_Assignment1_STQD6324.ipynb
 ├── README.md
 ├── cm.png
 ├── dt.png
@@ -86,11 +86,5 @@ Steps
 3. Run all notebook cells sequentially from top to bottom.
 
 
-### Optional Local Execution
 
-The notebook may also be executed locally using Jupyter Notebook.
-Required Dependencies
-- Python 3.x
-- Java 17
-- PySpark
 - Jupyter Notebook
