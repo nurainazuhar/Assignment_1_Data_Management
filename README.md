@@ -68,7 +68,7 @@ The following workflow was implemented in this project:
 </p>
 
 
-- Decision Tree visualization provides complete transparency by allowing users can visually trace how the model reach a conclusion. For example, the tree reveals that petal width and petal length are the most discriminative features where a single split on petal width is often enough to perfectly isolate the Setosa species.
+- Decision Tree visualization provides complete transparency by allowing users can visually trace how the model reach a conclusion. For example, the tree reveals that petal width and petal length are the most discriminative features where a single split on petal width is enough to perfectly isolate the Setosa species.
 
 
 ## Repository Structure
@@ -97,5 +97,7 @@ Steps
 4. Ensure the runtime is connected.
 5. Run all notebook cells sequentially from top to bottom.
 
+
+Prepared by: Nur Aina Binti Che Zuhar (P161828)
 
 
