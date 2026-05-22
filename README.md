@@ -65,6 +65,8 @@ The following workflow was implemented in this project:
 </p>
 
 ## Repository Structure
+
+```text
 Assignment1-STQD6324/
 │
 ├── IrisClassification_Assignment1_STQD6324.ipynb
@@ -74,6 +76,7 @@ Assignment1-STQD6324/
 ├── setosa.png
 ├── versicolor.png
 └── virginica.png
+```
 
 ## How to Reproduce the Analysis
 Recommended Platform: Google Colab
