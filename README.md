@@ -1,6 +1,4 @@
-# Iris Species Classification with Spark MLlib
-
-
+# Iris Species Classification with Spark MLlib 🌺
 
 ## Project Overview
 This project was developed for STQD6324 Data Management Assignment 1. The objective of this assignment is to perform a multiclass classification task using the Iris dataset with Spark MLlib.
@@ -33,5 +31,35 @@ The dataset contains four numerical features:
  - Species:	Iris flower species
    
 ## Methodology
+The following workflow was implemented in this project:
 
-## Results
+1. Load dataset into Spark DataFrame
+2. Perform data preprocessing
+3. Encode categorical labels using StringIndexer
+4. Assemble features using VectorAssembler
+5. Split dataset into training and testing sets
+6. Train multiple classification models
+7. Perform hyperparameter tuning using cross-validation and grid search
+8. Evaluate model performance
+9. Compare all models
+10. Identify the best-performing model 
+    
+## Results and Discussion
+### Model Comparison
+
+| Model | Accuracy | Strengths | Limitations |
+|---|---|---|---|
+| Decision Tree | 100.00% | Highly interpretable and easy to visualise decision rules | Prone to overfitting and high variance |
+| Random Forest | 95.83% | Reduces overfitting through ensemble learning | Slightly lower accuracy on this specific test set due to one misclassification, more difficult to interpret |
+| Support Vector Machine | 95.83% | Effective at finding optimal decision boundaries | Performance can dip when feature regions overlap; one 'versicolor' instance fell on the "wrong side" of the boundary |
+
+### Confusion Matrices
+<p align="center">
+  <img src="Screenshots/conf_mat.png" width="700">
+</p>
+
+## Decision Tree Visualization
+
+<p align="center">
+  <img src="screenshots/dt.png" width="700">
+</p>
