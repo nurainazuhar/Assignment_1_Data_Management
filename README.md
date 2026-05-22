@@ -55,11 +55,11 @@ The following workflow was implemented in this project:
 
 ### Confusion Matrices
 <p align="center">
-  <img src="Screenshots/conf_mat.png" width="700">
+  <img src="conf_mat.png" width="700">
 </p>
 
 ## Decision Tree Visualization
 
 <p align="center">
-  <img src="screenshots/dt.png" width="700">
+  <img src="dt.png" width="700">
 </p>
