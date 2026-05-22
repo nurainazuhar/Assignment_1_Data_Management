@@ -81,10 +81,11 @@ Recommended Platform: Google Colab
 This project was developed  using Google Colab to simplify the execution of PySpark without requiring manual local Java or Spark configuration.
 
 Steps
-1. Open the notebook using the Colab link above.
-2. Ensure the runtime is connected.
-3. Run all notebook cells sequentially from top to bottom.
+1. Navigate to the IrisClassification_Assignment1_STQD6324.ipynb in this repository.
+2. Click the **Open in Colab** badge at the top of the notebook file.
+3. The notebook will automatically open in Google Colab.
+4. Ensure the runtime is connected.
+5. Run all notebook cells sequentially from top to bottom.
 
 
 
-- Jupyter Notebook
