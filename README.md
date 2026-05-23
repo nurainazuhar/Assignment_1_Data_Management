@@ -59,7 +59,7 @@ The following workflow was implemented in this project:
 
 - Perfect Classification: The Decision Tree confusion matrix shows zero misclassifications, correctly identifying every instance of Setosa, Versicolor, and Virginica in the test set.
 - Identified Errors: Both the Random Forest and Support Vector Machine matrices reveal a single error where one 'versicolor' instance was incorrectly predicted as 'virginica'.
-- Root Cause: As noted in the comparison table, this occurred because that specific data point fell on the "wrong side" of the decision boundary where the feature regions for those two species overlap. This demonstrates that while the models are highly robust, they encounter challenges when feature values are not perfectly distinct.
+- Root Cause:  This occurred because the feature values of that specific sample were located near the overlapping region between the Versicolor and Virginica classes. For Random Forest, the ensemble voting mechanism from multiple decision trees produced a prediction biased toward Virginica because the majority of trees classified the sample into that class. For Support Vector Machine, the sample was positioned close to the decision boundary (hyperplane) separating 'versicolor' and 'virginica', causing it to fall on the 'virginica' side of the margin. These results demonstrate that although both models achieved high overall accuracy, classification becomes more challenging when observations from different classes exhibit highly similar feature characteristics.
 
 ### Decision Tree Visualization
 
@@ -68,7 +68,7 @@ The following workflow was implemented in this project:
 </p>
 
 
-- Decision Tree visualization provides complete transparency by allowing users can visually trace how the model reach a conclusion. For example, the tree reveals that petal width and petal length are the most discriminative features where a single split on petal width is enough to perfectly isolate the Setosa species.
+- The Decision Tree visualization provides high interpretability by clearly showing the sequence of decision rules used to classify iris species. The tree indicates that petal length is the most important feature, where flowers with petal length less than or equal to 2.45 are immediately classified as Setosa. Subsequent splits based on petal length and petal width further separate Versicolor and Virginica species. This demonstrates that petal-related measurements are highly discriminative features for iris classification and explains why the Decision Tree achieved perfect classification accuracy on the testing dataset.
 
 
 ## Repository Structure
