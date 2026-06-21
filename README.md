@@ -5,6 +5,18 @@
 ![Google Colab](https://img.shields.io/badge/Google-Colab-yellow?logo=googlecolab)
 ![Graphviz](https://img.shields.io/badge/Graphviz-DecisionTree-green)
 
+<h2 align="center">Navigation</h2>
+
+<p align="center">
+  <a href="#project-overview">Project Overview</a> •
+  <a href="#dataset">Dataset</a> •
+  <a href="#methodology">Methodology</a> •
+  <a href="#results-and-discussion">Results</a> •
+  <a href="#how-to-reproduce-the-analysis">Reproduce</a> •
+  <a href="#author">Author</a>
+</p>
+
+
 ## Project Overview
 This project was developed for STQD6324 Data Management Assignment 1. The objective of this assignment is to perform a multiclass classification task using the Iris dataset with Spark MLlib.
 
@@ -47,7 +59,18 @@ The following workflow was implemented in this project:
 8. Evaluate model performance
 9. Compare all models
 10. Identify the best-performing model 
-    
+
+
+## Key Findings
+
+| Metric | Result |
+|---------|---------|
+| Best Model | Decision Tree |
+| Highest Accuracy | 100.00% |
+| Number of Classes | 3 |
+| Features Used | 4 |
+| Models Compared | 3 |
+
 ## Results and Discussion
 ### Model Comparison
 
