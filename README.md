@@ -1,5 +1,7 @@
 # Iris Species Classification with Spark MLlib 🌺
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1M2qltKEZ_M1FtOauiOLBDmpmdj4Qsqrd?usp=sharing)
+
 ## Project Overview
 This project was developed for STQD6324 Data Management Assignment 1. The objective of this assignment is to perform a multiclass classification task using the Iris dataset with Spark MLlib.
 
